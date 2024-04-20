@@ -5,4 +5,4 @@
 ###### Можете на ночь ставить, она выключит всё по завершению фарма
 
 
-by R8'4ST & Death☆Gun
+by [R8'4ST](https://github.com/RaytFost) & [Death☆Gun](https://github.com/LoGundes)
