@@ -1,0 +1,5 @@
+﻿#autorun
+
+IF($GameOFF = 1)
+	SendMessage ($hWND, 0x0010,0,0)
+END_IF

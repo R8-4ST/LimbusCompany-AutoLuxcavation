@@ -1,0 +1,5 @@
+﻿#autorun
+
+IF($SoundNotification = 1)
+	SOUND("sounds/complete.wav")
+END_IF

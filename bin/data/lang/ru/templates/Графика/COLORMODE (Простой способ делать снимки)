@@ -1,0 +1,49 @@
+﻿#name "Скриншоты v1.0"
+
+// Требуется версия кликера 4.12 и выше
+
+GETSCREEN
+HINTPOPUP ("Нажмите CTRL для продолжения","Укажите верхний левый угол")
+WHILE(iskeydown(#CTRL)=0)
+   WAITMS(20)
+END_CYC
+WHILE(iskeydown(#CTRL)=1)
+   WAITMS(20)
+END_CYC
+$vx = $_xmouse
+$vy = $_ymouse
+BEEP(1000,200)
+
+HINTPOPUP ("Нажмите CTRL для продолжения","Укажите нижний правый угол")
+WHILE(iskeydown(#CTRL)=0)
+   WAITMS(20)
+END_CYC
+WHILE(iskeydown(#CTRL)=1)
+   WAITMS(20)
+END_CYC
+$nx = $_xmouse
+$ny = $_ymouse
+BEEP(1000,200)
+
+GETFILELIST($arr, "Image_*.bmp")
+IF(ARRSIZE($arr) > 0)
+   $n = ARRPOP($arr)
+   $n = INT(STRCUT2($n, STRPOS($n, "_")+1, STRPOS($n, ".")-1))+1
+   $nam=INPUTBOX("Введите имя файла", STRCONCAT("Image_",$n), 999)
+ELSE
+   $nam=INPUTBOX("Введите имя файла", "Image_1", 999)
+END_IF
+IF($nam = "")
+   HALT
+END_IF
+
+$nam=STRCONCAT($nam,".bmp")
+
+$color = RADIOBOX("Выберете режим CLORMODE			CANCEL - оригинал","1","2","3","4","5","6","7","8")
+COLORMODE($color,$vx,$vy,$nx,$ny)
+SCREENSHOTFIX($vx,$vy,$nx,$ny,$nam, 0)
+
+$mr = DIALOGBOX("Продолжаем?", 4)
+IF($mr = 7)
+   HALT
+END_IF

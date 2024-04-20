@@ -1,0 +1,5 @@
+﻿GETSCREEN
+IF_PICTURE_IN (0,0, $_xmax,$_ymax, "file.bmp", -1, 100)
+   LCLICK($_return1, $_return2)
+   WAITMS(100)
+END_IF

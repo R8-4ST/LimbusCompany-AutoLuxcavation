@@ -1,0 +1,19 @@
+GETSCREEN
+SCANPXL($ARR_SCAN, 0,0, $_xmax,$_ymax, 255)
+
+$ARR_NUM = 0
+$SHIFT_X = 1 // смещение (кол-во игнор пикселов после найденного)
+$SHIFT_Y = 1
+WHILE ($ARR_NUM < ARRSIZE($ARR_SCAN))
+   $X = $ARR_SCAN [$ARR_NUM]
+   INC($ARR_NUM,1)
+   $Y = $ARR_SCAN [$ARR_NUM]
+   INC($ARR_NUM,1)
+   IF(($X > $X2) | ($Y > $Y2))
+      $X2 = $X + $SHIFT_X
+      $Y2 = $Y + $SHIFT_Y
+      LCLICK($X, $Y) // Клик
+      WAITMS(100)
+   END_IF
+END_CYC
+UNDEFINE($ARR_SCAN)

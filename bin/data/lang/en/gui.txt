@@ -1,0 +1,200 @@
+﻿// GUI String File for Clickermann v4.13
+// max: 138
+
+// Message Boxes (All)
+
+000 File %1 not found
+001 Script is empty!
+002 Break %1 was reached. Halt?
+003 Record error: JournalHook was blocked\nIf you have Vista or Win 7 try to turn off UAC
+004 Run-time error at line: %1 \nHalt?
+005 New version enable: %1\nVisit site %2
+121 Would you like to apply changes?
+122 You are trying to run application under too old Windows.\nSome functions may does not work.
+
+// **** Main Form ***
+// Labels & Captions 
+
+006 EXECUTE
+007 RECORD
+008 STOP
+009 EDITOR
+010 Window lock
+011 Execution mode
+012 Status:
+013 off
+014 on
+
+015 Unlimited
+016 Fixed
+021 Iterations
+
+017 Script
+018 Cycles: %1
+019 Total lines %1
+020 Interval
+
+022 %1
+
+// Hints (Main FOrm)
+
+023 Load script
+024 Save script
+025 Delay before execution
+026 Log
+027 Window Manager
+028 Settings
+029 Help
+
+030 Begin execution
+031 Begin recording
+032 Stop execution (recording)
+033 Script editor
+128 Use MButton2 to get HWND
+
+
+// *** Editor Form ***
+// Labels & Captions
+
+034 Editor - %1
+035 Commands
+036 Templates
+037 ---
+038 Apply
+039 Clr: %1
+040 Emulation mode
+041 Window lock (%1)
+
+
+// Hints
+124 Clear
+042 Load script
+043 Save script
+044 Undo
+045 Redo
+046 Find
+047 Move mouse by arrows
+123 Enable google
+048 Make comment
+049 Remove comment
+050 Auto tabulate
+051 Step right
+052 Window on top
+053 Transparent window
+054 Script language help
+
+055 Save script as ...
+056 Variables
+057 Log
+058 Screen
+059 Time
+060 Functions
+061 Memory
+062 Others
+063 Functions
+
+
+// *** Log Form ***
+// Labels & Captions
+
+064 Log
+
+// Hints
+
+065 Clear
+066 Save log
+067 Window on top
+068 Transparent window
+
+
+// *** WinManager Form ***
+// Labels & Captions
+
+
+069 Window Manager
+070 Window
+071 Refresh windows list
+127 Input HWND
+072 Parameters
+073 Title
+074 Width
+075 Height
+076 Transparent
+077 Apply
+
+
+
+// *** Setting Form ***
+// Labels & Captions
+
+078 Setting
+079 Hotkeys
+080 Interface
+081 Interpretation
+082 Color reception
+083 Apply
+
+084 Run
+085 Stop
+086 Record
+087 Quick insert
+088 Window lock
+
+089 Events
+090 Others
+091 Popup messages
+092 Sounds
+093 Check updates
+094 Google screenshot
+095 Delay before run (sec.)
+096 Interface language
+
+097 File association
+098 Execution
+099 Add
+100 Delete
+101 Record mouse movements
+102 Ignore run-time errors
+
+103 Palette correction
+104 Color balance
+105 Max colors
+106 Type
+107 to light
+108 to dark
+109 Red
+110 Green
+111 Blue
+
+126 Screenshots in JPEG
+
+// Popup menus
+
+112 Execute
+113 Record
+114 Stop
+115 Exit
+
+116 Cut
+117 Copy
+118 Paste
+119 Make comment
+120 Remove comment
+
+// Input box
+
+125 Input box
+
+129 Text to find
+130 Text to replace
+131 Find
+132 Replace
+133 Replace all
+
+134 Copy mouse coords on "Quick Insert"
+
+135 %1: %2
+136 Variant value
+
+137 Error at line #%1\nThe number of opening and closing braces is not equal
+138 Error at definition:\n%1\nThe number of opening and closing operators is not equal

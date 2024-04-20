@@ -1,0 +1,5 @@
+﻿#autorun
+
+IF($PCShutDown = 1)
+	EXECUTE ("shutdown.exe", "/s /f /t 00")
+END_IF

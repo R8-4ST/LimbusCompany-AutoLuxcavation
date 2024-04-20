@@ -1,0 +1,110 @@
+﻿// Qiuck Insert Menu
+
+Mouse;
+{
+  lClick;  lClick(10,10);
+  rClick;  rClick(10,10);
+  mClick;  mClick(10,10);
+  -;
+  lUp;		lUp(10,10);
+  lDown;	lDown(10,10);
+  rUp;		rUp(10,10);
+  rDown;	rDown(10,10);
+  mUp;		mUp(10,10);
+  mDown;	mDown(10,10);
+  -;
+  move;		move(10,10);
+  wheelUp;	wheelUp;
+  wheelDown;	wheelDown;
+}
+
+Keyboard;
+{
+  keyPress;	keyPress(32);
+  keyUp;	keyUp(32);
+  keyDown;	keyDown(32);
+  keyString;	keyString("str");
+}
+  
+
+Screen;
+{
+  GetScreen;	GetScreen;
+  Screenshot;	Screenshot;
+  Functions;
+  {
+    pxl();	pxl(10,10);
+    pxlcount();	pxlcount(10,10, 100,100);
+    pxlxor();	pxlxor(10,10, 100,100);
+    pxlcrc();	pxlcrc(10,10, 100,100);
+  }
+}
+
+Maths;
+{
+   inc;		inc($var);
+   rnd();	rnd(1,5);
+   rndfrom();	rndfrom(1,3,5);
+   sin();	sin(45);
+   cos();	cos(45);
+   sqrt();	sqrt(4);
+   pow();	pow(4,2);
+   round();	round(25.5);
+   int();	int(25.5);
+}
+
+Strings;
+{
+  Functions;
+  {
+    strlen();		strlen("string");
+    strcut();		strcut("string", 1, 3);
+    strcut2();		strcut2("string", 3, 5);
+    strfilter();	strfilter("string", "set", 0);  
+    strpos();		strpos("string", "substr");
+    strconcat();	strconcat("str1", "str2");
+    strreplace();	strreplace("string", "substr1", "substr2");
+    strmd5();		strmd5("string"); 
+  }
+  
+  Text files;
+  {
+    TFWrite;	TFWrite("filename", "string");
+	TFRead();	TFRead("filename", 1);
+	TFDelete;	TFDelete("filename", 1);
+	TFCount();	TFCount("filename");
+	TFClear;	TFClear("filename");
+  }
+
+  fromClip();	fromClip();
+  toClip;	toClip("string");
+  httpGet();	httpGet("url");
+  iniRead();	iniRead("filename", "parname");
+  iniWrite;	iniWrite("filename", "parname", "value");
+}
+
+
+WinAPI;
+{
+  hGet();	hGet(10,10);
+  hSet;		hSet(12345);
+  hGetText();	hGetText(12345);
+  hSetText;	hGetText(12345, "text");
+  wndFind();	wndFind("win title");
+  wndPos;	wndPos(12345,10,10);
+  wndSize;	wndSize(12345,10,10);
+  SendMessage;	SendMessage(12345,123,0,0);
+  PostMessage;	PostMessage(12345,123,0,0);
+}
+
+Other;
+{
+  wait;		wait(5);
+  waitms;	waitms(5);
+  print;	print("message");
+  sound;	sound("filename");
+  hintpopup;	HintPopup("message");
+}
+  
+  
+Divider; //--------------------------------;

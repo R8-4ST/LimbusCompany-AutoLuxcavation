@@ -1,0 +1,3 @@
+﻿WHILE($var < 5)
+  // body
+END_CYC

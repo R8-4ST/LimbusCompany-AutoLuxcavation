@@ -1,0 +1,11 @@
+﻿SWITCH($var)
+CASE(1)
+// случай 1
+
+CASE(2)
+// случай 2
+
+DEFAULT
+// случай по умолчанию 
+
+END_SWITCH

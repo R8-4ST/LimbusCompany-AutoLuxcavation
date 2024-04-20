@@ -1,0 +1,13 @@
+GETSCREEN
+SCANPICTURE($ARR_SCAN, 0,0, $_xmax,$_ymax, "picture.bmp", -1, 100)
+
+$ARR_NUM = 0
+WHILE ($ARR_NUM < ARRSIZE($ARR_SCAN))
+   $X = $ARR_SCAN [$ARR_NUM]
+   INC($ARR_NUM,1)
+   $Y = $ARR_SCAN [$ARR_NUM]
+   INC($ARR_NUM,1)
+   LCLICK($X, $Y)   // Клик 
+   WAITMS(100)
+END_CYC
+UNDEFINE($ARR_SCAN)

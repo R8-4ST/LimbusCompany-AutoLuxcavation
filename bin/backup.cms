@@ -1,0 +1,6 @@
+﻿// 18.04.2024
+#name "New Script"
+
+
+print("Hello, world!")
+

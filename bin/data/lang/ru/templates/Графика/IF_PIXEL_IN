@@ -1,0 +1,5 @@
+﻿GETSCREEN
+IF_PIXEL_IN(0,0, $_xmax,$_ymax, 255)
+   LCLICK($_return1, $_return2)
+   WAITMS(100)
+END_IF

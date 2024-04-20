@@ -1,0 +1,14 @@
+$time = $_time_t + 10 // таймер на 10 секунд
+WHILE($time > $_time_t)
+   GETSCREEN
+   IF_PICTURE_IN (0,0, $_xmax,$_ymax, "file.bmp", -1, 100)
+      $time = 0
+      LCLICK($_return1, $_return2)
+      WAITMS(100)
+   ELSE
+      WAITMS(500)
+   END_IF
+END_CYC
+IF($time ! 0)
+// время истекло, картинка не найдена
+END_IF

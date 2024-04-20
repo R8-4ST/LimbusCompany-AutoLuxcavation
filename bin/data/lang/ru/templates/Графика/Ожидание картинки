@@ -1,0 +1,11 @@
+$check = 0
+WHILE($check = 0)
+   GETSCREEN
+   IF_PICTURE_IN (0,0, $_xmax,$_ymax, "file.bmp", -1, 100)
+      $check = 1
+      LCLICK($_return1, $_return2)
+      WAITMS(100)
+   ELSE
+      WAITMS(50)
+   END_IF
+END_CYC

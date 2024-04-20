@@ -1,0 +1,1 @@
+start bin\Clickermann.exe "%~dp0\projects\LimbusCompany AutoLuxcavation\program.cms"	

@@ -1,0 +1,9 @@
+﻿#autorun
+
+Thread(CloseProgram)
+	IF (iskeydown(#G)=1)
+		$dialog = DIALOGBOX("Выключение программы...", 0)
+		sound("sounds/stop.wav")
+		halt(1)
+	End_if
+End_thread

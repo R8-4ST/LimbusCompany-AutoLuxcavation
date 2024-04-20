@@ -1,0 +1,53 @@
+﻿#name="AutoLuxcavation V6.0"
+#autorun
+      
+#include "Input_Check.cms"
+
+//=============================================
+																						 
+while($FirstStart = false)
+#include "INI_Reader.cms"
+end_cyc
+
+//=============================================
+
+LOGWRITE ($Grind)
+
+																										 
+WAITMS(100)
+GETSCREEN
+COLORMODE(7)
+IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)	
+	#include "Luxcavation_Select.cms"
+END_IF
+
+WAITMS(100)
+GETSCREEN
+COLORMODE(6)
+IF_PICTURE_IN(1790,34 , 1842,87, "bmp/Pre_Battle.bmp", 0, 95)
+   #include "Pre_Battle.cms"
+END_IF
+
+WAITMS(100)  
+GETSCREEN
+COLORMODE(7)
+IF_PICTURE_IN(18,45 , 62,64, "bmp/In_Battle.bmp", 0, 95)
+   #include "Battle_WinRate.cms"
+END_IF
+
+WAITMS(100)
+GETSCREEN
+COLORMODE(7)
+IF_PICTURE_IN(1485,132 , 1763,283, "bmp/Victory.bmp", 0, 95)
+   #include "BattleComplete.cms"
+END_IF
+
+WAITMS(100)
+GETSCREEN
+COLORMODE(7)
+IF_PICTURE_IN(595,470 , 1322,577, "bmp/LevelUp.bmp", 0, 95)
+   #include "LEVEL_UP.cms"
+END_IF
+
+//=============================================
+//by R8'4ST

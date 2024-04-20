@@ -1,0 +1,5 @@
+﻿// Получение скриншота с цветокоррекцией (фильтр 6)
+GETSCREEN
+COLORMODE(6)
+SCREENSHOT
+HALT

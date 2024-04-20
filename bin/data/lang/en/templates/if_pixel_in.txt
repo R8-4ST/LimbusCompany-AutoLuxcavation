@@ -1,0 +1,9 @@
+﻿// search pixel on part of screen
+
+getscreen
+
+if_pixel_in(0, 0, 100, 100, 255)
+  print("Find X=", $_return1, ", Y=", $_return2)
+else
+  print("nothing find")
+end_if

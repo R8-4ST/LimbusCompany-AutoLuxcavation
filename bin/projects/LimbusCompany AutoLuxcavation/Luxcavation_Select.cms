@@ -1,0 +1,73 @@
+﻿#autorun
+
+//=============================================
+sub(LuxMenuScroll_Left)
+   $i = 0
+   for($i, $i < 80)
+      WHEELDOWN()
+   end_cyc
+   WAITMS(350)
+end_sub
+
+sub(LuxMenuScroll_Right)
+   $i = 0
+   for($i, $i < 80)
+      WHEELUP()
+   end_cyc
+   WAITMS(350)
+end_sub
+//=============================================
+
+
+
+//=============================================
+
+
+SWITCH($Stage)
+      GetScreen
+	  COLORMODE(7)
+   Case(1)
+   LuxMenuScroll_Left()
+      IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)
+         LCLICK(600,720)
+         WAITMS(50)
+      END_IF
+      
+   Case(2)
+   LuxMenuScroll_Left()
+      IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)
+         LCLICK(1110,720)
+         WAITMS(50)
+      END_IF
+      
+   Case(3)
+   LuxMenuScroll_Left()
+      IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)
+         LCLICK(1625,720)
+         WAITMS(50)
+      END_IF 
+
+   Case(4)
+   LuxMenuScroll_Left()
+	LuxMenuScroll_Right()
+      IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)
+         LCLICK(600,720)
+         WAITMS(50)
+      END_IF
+      
+   Case(5)
+   LuxMenuScroll_Left()
+   LuxMenuScroll_Right()
+      IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)
+         LCLICK(1110,720)
+         WAITMS(50)
+      END_IF
+      
+   Case(6)
+   LuxMenuScroll_Left()
+   LuxMenuScroll_Right()
+      IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)
+         LCLICK(1625,720))
+         WAITMS(50)
+      END_IF     
+END_SWITCH

@@ -1,0 +1,3 @@
+﻿THREAD(name, 1)
+   // тело
+END_THREAD

@@ -1,0 +1,7 @@
+﻿// ∆дем по¤влени¤ цвета 255 по координате 100,100 не более 30 сек
+$time = $_time_t + 30 // 30 сек
+GETSCREEN
+WHILE((PXL (100, 100) ! 255) & ($time > $_time_t))
+   WAITMS (100)
+   GETSCREEN
+END_CYC

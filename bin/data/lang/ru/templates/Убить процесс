@@ -1,0 +1,1 @@
+﻿EXECUTE("TASKKILL","/F /IM firefox.exe") // убить процесс

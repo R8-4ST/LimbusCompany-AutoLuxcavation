@@ -1,0 +1,6 @@
+﻿IF($t_wait = 0)
+   WHILE(($_time_h ! 3)|($_time_m ! 5)) // ждем 03:05
+      WAITMS(500)
+   END_CYC
+   $t_wait = 1
+END_IF
