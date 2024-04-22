@@ -1,0 +1,5 @@
+﻿getscreen
+colormode(7)
+SCREENSHOTFIX(1485,132 , 1763,283, "Lose3.bmp", 0)
+
+halt()

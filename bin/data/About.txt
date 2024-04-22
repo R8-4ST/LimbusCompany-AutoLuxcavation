@@ -3,7 +3,7 @@
 	- Programm by R8'4ST
 	- Co-author Death☆Gun
 	- Shadow Text & Chains Scroll shader by SinexProgs
-	- BetaTesters: Fubuke, Meris, Ilushkinoff
+	- Testers: Fubuke, Meris, Ilushkinoff
 	
 	Программа сделана с помощью Clickteam Fusion и Clickermann. Большая благодарность
 	гайдам в интернете и людям создавшим эти программы!!

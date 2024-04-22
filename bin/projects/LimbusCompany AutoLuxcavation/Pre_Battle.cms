@@ -1,8 +1,6 @@
 ﻿#autorun
 
-IF_PICTURE_IN(1790,34 , 1842,87, "bmp/Pre_Battle.bmp", 0, 95)
+IF_PICTURE_IN(1790,34 , 1842,87, bmp/$lang/Pre_Battle.bmp, 0, 95)
 	WAITMS(50)
 	KEYPRESS(#ENTER)
-	inc($Grind, 1)
-	WAIT(10)
 END_IF

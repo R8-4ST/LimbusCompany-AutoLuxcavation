@@ -1,0 +1,6 @@
+﻿#autorun
+
+IF_PICTURE_IN(1485,132 , 1763,283, bmp/$Lang/Defeat.bmp, 0, 95)
+   WAITMS(50)	
+		KEYPRESS(#ENTER)
+END_IF

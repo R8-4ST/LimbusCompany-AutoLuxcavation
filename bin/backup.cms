@@ -1,6 +1,5 @@
-﻿// 18.04.2024
-#name "New Script"
+﻿getscreen
+colormode(7)
+SCREENSHOTFIX(1485,132 , 1763,283, "Lose3.bmp", 0)
 
-
-print("Hello, world!")
-
+halt()

@@ -1,17 +1,9 @@
 ﻿#autorun
 
-IF_PICTURE_IN(1485,132 , 1763,283, "bmp/Victory.bmp", 0, 95)
+IF_PICTURE_IN(1485,132 , 1763,283, bmp/$lang/Victory.bmp, 0, 95)
    WAITMS(50)
-   IF(($Grind = $GrindCounts) | ($Grind > $GrindCounts))
-      #include "SoundNotification.cms"
-	  WAITMS(250)
-      #include "Game_ShutDown.cms"
-	  WAITMS(250)
-      #include "PC_ShutDown.cms"
-	  WAITMS(250)
-	  halt(1)
-      else
-      KEYPRESS(#ENTER)
-	  WAITMS(15)
-   END_IF
+		inc($Grind, 1)
+		WAIT(10)
+		KEYPRESS(#ENTER)
+		WAITMS(15)
 END_IF

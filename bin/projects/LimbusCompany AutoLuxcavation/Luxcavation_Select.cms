@@ -16,6 +16,19 @@ sub(LuxMenuScroll_Right)
    end_cyc
    WAITMS(350)
 end_sub
+
+sub(CheckGrind)
+	IF(($Grind = $GrindCounts) | ($Grind > $GrindCounts))
+      #include "SoundNotification.cms"
+	  WAITMS(250)
+      #include "Game_ShutDown.cms"
+	  WAITMS(250)
+      #include "PC_ShutDown.cms"
+	  WAITMS(250)
+	  halt(1)
+      end_if
+end_sub
+
 //=============================================
 
 
@@ -27,46 +40,52 @@ SWITCH($Stage)
       GetScreen
 	  COLORMODE(7)
    Case(1)
+   CheckGrind()
    LuxMenuScroll_Left()
-      IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)
+      IF_PICTURE_IN(116,283 , 315,315, bmp/$lang/Luxcavation.bmp, 0, 95)
          LCLICK(600,720)
          WAITMS(50)
       END_IF
       
    Case(2)
+   CheckGrind()
    LuxMenuScroll_Left()
-      IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)
+      IF_PICTURE_IN(116,283 , 315,315, bmp/$lang/Luxcavation.bmp, 0, 95)
          LCLICK(1110,720)
          WAITMS(50)
       END_IF
       
    Case(3)
+   CheckGrind()
    LuxMenuScroll_Left()
-      IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)
+      IF_PICTURE_IN(116,283 , 315,315, bmp/$lang/Luxcavation.bmp, 0, 95)
          LCLICK(1625,720)
          WAITMS(50)
       END_IF 
 
    Case(4)
+   CheckGrind()
    LuxMenuScroll_Left()
 	LuxMenuScroll_Right()
-      IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)
+      IF_PICTURE_IN(116,283 , 315,315, bmp/$lang/Luxcavation.bmp, 0, 95)
          LCLICK(600,720)
          WAITMS(50)
       END_IF
       
    Case(5)
+   CheckGrind()
    LuxMenuScroll_Left()
    LuxMenuScroll_Right()
-      IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)
+      IF_PICTURE_IN(116,283 , 315,315, bmp/$lang/Luxcavation.bmp, 0, 95)
          LCLICK(1110,720)
          WAITMS(50)
       END_IF
       
    Case(6)
+   CheckGrind()
    LuxMenuScroll_Left()
    LuxMenuScroll_Right()
-      IF_PICTURE_IN(116,283 , 315,315, "bmp/Luxcavation.bmp", 0, 95)
+      IF_PICTURE_IN(116,283 , 315,315, bmp/$lang/Luxcavation.bmp, 0, 95)
          LCLICK(1625,720))
          WAITMS(50)
       END_IF     

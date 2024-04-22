@@ -1,6 +1,6 @@
 ﻿#autorun
 
-IF_PICTURE_IN(595,470 , 1322,577, "bmp/LevelUp.bmp", 0, 95)
+IF_PICTURE_IN(595,470 , 1322,577, bmp/$lang/LevelUp.bmp, 0, 95)
 	WAITMS(50)
 	KEYPRESS(#ENTER)
 END_IF

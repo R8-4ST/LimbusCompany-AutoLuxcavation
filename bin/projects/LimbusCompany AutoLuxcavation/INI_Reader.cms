@@ -29,6 +29,11 @@
 	$PCShutDown = strfilter($str, "1234567890", 1 )
 	// • Выключение Компа (0 - Не включен, 1 - Включен)
 	
+	$str = TFREAD ($Info, 8)
+	$LangID = strfilter($str, "1234567890", 1 )
+	// • 0 - Английский, 1 - Русский
+
+	
 // > - - - - - - - - - - - - - - - - - - - - - - - - - 
 	
 	$hWND = WNDFIND("LimbusCompany", 1)
@@ -36,6 +41,32 @@
 	
 	$Grind = 0
 	// • Текущее Количество Очисток
+
+// > - - - - - - - - - - - - - - - - - - - - - - - - - 
+	
+	IF($LangID = 0)
+		$Lang = eng
+	END_IF
+	
+	IF($LangID = 1)
+		$Lang = rus
+	END_IF
+	
+	IF($LangID = 0)
+		$CM_LUXSelect = 7
+		$CM_PreBattle = 6
+		$CM_BattleWinRate = 7
+		$CM_BattleComplete = 7
+		$CM_LevelUP = 7
+	END_IF
+	
+	IF($LangID = 1)
+		$CM_LUXSelect = 7
+		$CM_PreBattle = 6
+		$CM_BattleWinRate = 7
+		$CM_BattleComplete = 6
+		$CM_LevelUP = 7
+	END_IF
 
 // > - - - - - - - - - - - - - - - - - - - - - - - - - 
 	
