@@ -7,7 +7,7 @@
 
 # Limbus Company: AutoLuxcavation <br/>[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/R8-4ST/LimbusCompany-AutoLuxcavation/total?style=plastic&label=%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%BA&labelColor=A53A00&color=FF6101)](../../releases) [![GitHub Release](https://img.shields.io/github/v/release/R8-4ST/LimbusCompany-AutoLuxcavation?style=plastic&label=%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&labelColor=03474B&color=007E87)](../../releases/latest)
 
-Приложение для "Limbus Company", которое автоматически фарми Билетики для вас, пока вы можете заняться другими делами
+Приложение для "Limbus Company", которое автоматически фармит Билетики для вас, пока вы можете заняться другими делами
 
 <b>Создатели</b><br/>[R8'4ST](https://github.com/RaytFost) & [Death☆Gun](https://github.com/LoGundes)
 </div>
