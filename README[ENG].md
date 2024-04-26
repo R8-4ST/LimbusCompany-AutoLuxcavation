@@ -1,4 +1,4 @@
-[![Static Badge](https://img.shields.io/badge/https%3A%2F%2Fimg.shields.io%2Fbadge%2Flang-RUS-blue.svg?label=%20)](../../tree/main)
+[![Static Badge](https://img.shields.io/badge/https%3A%2F%2Fimg.shields.io%2Fbadge%2Flang-RUS-blue.svg?label=%20)](https://github.com/R8-4ST/LimbusCompany-AutoLuxcavation)
 
 <div align="center">
 <a href="https://github.com/R8-4ST/LimbusCompany-AutoLuxcavation">
