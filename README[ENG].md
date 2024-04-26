@@ -1,0 +1,8 @@
+<div align="center">
+  
+# LimbusCompany: Autoluxcavation
+• Просто простая программа написанная с помощью Clickermann и Clickteam Fusion для фарма Билетов в Лимбусе. А ещё она пока поддерживает только 1920x1080 экраны, в будущем всё будет доделано
+###### Можете на ночь ставить, она выключит всё по завершению фарма
+
+
+by [R8'4ST](https://github.com/RaytFost) & [Death☆Gun](https://github.com/LoGundes)
