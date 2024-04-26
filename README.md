@@ -1,3 +1,6 @@
+[![Static Badge](https://img.shields.io/badge/https%3A%2F%2Fimg.shields.io%2Fbadge%2Flang-ENG-red.svg?label=%20)](../../blob/main/README%5BENG%5D.md)
+
+
 <div align="center">
 <a href="https://github.com/R8-4ST/LimbusCompany-AutoLuxcavation">
 <img src="https://github.com/RaytFost/LimbusCompany-AutoLuxcavation/assets/151665551/7e18ccae-b132-4b28-b3d6-aa7818f4a631"
