@@ -7,7 +7,7 @@
       height="250"/>
 </a>
 
-# Limbus Company: AutoLuxcavation <br/>[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/R8-4ST/LimbusCompany-AutoLuxcavation/total?style=plastic&labelColor=A53A00&color=FF6101)](../../releases) [![GitHub Release](https://img.shields.io/github/v/release/R8-4ST/LimbusCompany-AutoLuxcavation?labelColor=03474B&color=007E87)](../../releases/latest)
+# Limbus Company: AutoLuxcavation <br/>[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/R8-4ST/LimbusCompany-AutoLuxcavation/total?style=plastic&labelColor=A53A00&color=FF6101)](../../releases) [![GitHub Release](https://img.shields.io/github/v/release/R8-4ST/LimbusCompany-AutoLuxcavation?style=plastic&labelColor=03474B&color=007E87)](../../releases/latest)
 
 Program for the "Limbus Company" that automatically farms Tickets for you while you can do other things.
 
