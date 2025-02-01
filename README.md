@@ -12,7 +12,7 @@
 
 Приложение для "Limbus Company", которое автоматически фармит Билетики для вас, пока вы можете заняться другими делами
 
-<b>Создатели</b><br/>[R8'4ST](https://github.com/RaytFost) & [Death☆Gun](https://github.com/LoGundes)
+<b>Создатели</b><br/>[R8'4ST](https://github.com/R8-4ST) & [Death☆Gun](https://github.com/LoGundes)
 </div>
 
 <div align="right">
